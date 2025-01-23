@@ -1,1 +1,1 @@
-# homework-11
+# Homework 11 | Simple Responsive Website (SCSS)
