@@ -20,23 +20,25 @@
   <header class="site-header">
     <div class="container">
 
-      <nav class="site-menu">
-        <a class="site-menu__item" href="index.html">Главная</a>
-        <a class="site-menu__item" href="#section-about">Об авторе</a>
-        <a class="site-menu__item" href="#section-cases">Работы</a>
-        <a class="site-menu__item" href="#section-workflow">Процесс</a>
-        <a class="site-menu__item" href="#section-contact">Контакты</a>
+      <nav class="menu">
+        <a class="menu__item menu__item--active" href="index.html">Главная</a>
+        <a class="menu__item" href="#section-about">Об авторе</a>
+        <a class="menu__item" href="#section-cases">Работы</a>
+        <a class="menu__item" href="#section-workflow">Процесс</a>
+        <a class="menu__item" href="#section-contact">Контакты</a>
       </nav>
 
+      <button class="menu-toggle">☰</button>
     </div>
   </header>
 
-  <main>
-    <section>
+  <main class="site-main">
+
+    <section id="section-hero" class="background-gray">
       <div class="container">
 
         <div class="headline">
-          <h1 class="headline__title">Дизайн и верстка</h1>
+          <h1 class="headline__title headline__title--large">Дизайн и верстка</h1>
           <p class="headline__textarea">
             Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br>
             вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
@@ -44,11 +46,11 @@
           </p>
         </div>
 
-        <a class="button" href="#section-contact">Написать мне</a>
+        <button>Написать мне</button>
       </div>
     </section>
 
-    <section>
+    <section id="section-about">
       <div class="container">
 
         <div class="headline headline--center">
@@ -63,7 +65,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="section-cases" class="background-blue">
       <div class="container">
 
         <div class="card-group">
@@ -71,48 +73,48 @@
           <div class="card">
             <img src="./assets/images/icon-1.svg" alt="icon" class="card__icon">
             <div class="card__panel">
-              <p class="card__panel-title">40+</p>
-              <p class="card__panel-textarea">проектов</p>
+              <p class="card__title">40+</p>
+              <p class="card__textarea">проектов</p>
             </div>
           </div>
 
           <div class="card">
             <img src="./assets/images/icon-1.svg" alt="icon" class="card__icon">
             <div class="card__panel">
-              <p class="card__panel-title">40+</p>
-              <p class="card__panel-textarea">проектов</p>
+              <p class="card__title">40+</p>
+              <p class="card__textarea">проектов</p>
             </div>
           </div>
 
           <div class="card">
             <img src="./assets/images/icon-1.svg" alt="icon" class="card__icon">
             <div class="card__panel">
-              <p class="card__panel-title">40+</p>
-              <p class="card__panel-textarea">проектов</p>
+              <p class="card__title">40+</p>
+              <p class="card__textarea">проектов</p>
             </div>
           </div>
 
           <div class="card">
             <img src="./assets/images/icon-1.svg" alt="icon" class="card__icon">
             <div class="card__panel">
-              <p class="card__panel-title">40+</p>
-              <p class="card__panel-textarea">проектов</p>
+              <p class="card__title">40+</p>
+              <p class="card__textarea">проектов</p>
             </div>
           </div>
 
           <div class="card">
             <img src="./assets/images/icon-1.svg" alt="icon" class="card__icon">
             <div class="card__panel">
-              <p class="card__panel-title">40+</p>
-              <p class="card__panel-textarea">проектов</p>
+              <p class="card__title">40+</p>
+              <p class="card__textarea">проектов</p>
             </div>
           </div>
 
           <div class="card">
             <img src="./assets/images/icon-1.svg" alt="icon" class="card__icon">
             <div class="card__panel">
-              <p class="card__panel-title">40+</p>
-              <p class="card__panel-textarea">проектов</p>
+              <p class="card__title">40+</p>
+              <p class="card__textarea">проектов</p>
             </div>
           </div>
 
@@ -121,7 +123,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="section-workflow" class="background-gray">
       <div class="container">
 
         <div class="headline headline--center">
@@ -140,8 +142,21 @@
 
       </div>
     </section>
+
   </main>
 
+  <footer id="section-contact" class="site-footer">
+    <div class="container">
+
+      <div class="copyright">
+        <p class="copyright__title">Иванов Иван</p>
+        <p class="copyright__textarea">&#169 2018. Все права защищены.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
 </body>
 
 </html>

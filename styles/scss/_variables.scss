@@ -1,2 +1,23 @@
-// fonts
+//
+$container-gap: 64px;
+$container-width: 1100px;
+
+//
 $font-family-serif: "Roboto", serif;
+$font-size-h1: 48px;
+$font-size-h2: 32px;
+$font-size-h3: 24px;
+
+//
+$color-black: #000000;
+$color-white: #ffffff;
+$color-blue: #34547a;
+$color-gray: #eeeff1;
+$color-gray-dark: #727272;
+$color-gray-light: #f9f9f9;
+
+//
+$background: (
+  "gray": $color-gray,
+  "blue": $color-blue,
+);
